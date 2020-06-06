@@ -1,12 +1,12 @@
-## Covid19 live visualiztion on Kibana
+## Covid19 live visualization on Kibana
 
 Simple visualization:
 ![kibana dashboard](./dashboard.png)
 
-### 1. Set index template
+### 1. Set the index template
 Open `Dev Tools` in kibana, copy `index-template-mapping.json` content to run.
 
-### 2. ingest data
+### 2. Ingest data
 ```bash
 logstash -f logstash-github-covid-19-daily-reportes-temp.conf
 ```
